@@ -1,5 +1,11 @@
+: :root {
+    --heading-background-color: #00008b;
+    --img-padding: 20px;
+    --img-border: 1px solid;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -17,7 +23,7 @@ main img {
     width: 150px;
     height: auto;
     border: 1px solid lightblue;
-    padding: 2px;
+    padding: var(--img-padding);
     box-shadow: 0 0 30px rgb(170, 170, 170);
 }
 
@@ -25,7 +31,7 @@ img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    padding: var(--img-padding);
     box-shadow: 0 0 30px gray;
 }
 
