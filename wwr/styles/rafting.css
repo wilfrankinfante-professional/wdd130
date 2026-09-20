@@ -162,24 +162,24 @@ footer p {
     color: #666666;
 }
 
-footer .Socialmedia {
+footer .socialmedia {
     display: flex;
     align-items: center;
     margin: 0;
     padding: 0;
 }
 
-footer .Socialmedia a {
+footer .socialmedia a {
     text-decoration: none;
     margin-left: 15px;
 }
 
-footer .Socialmedia img {
+footer .socialmedia img {
     width: 24px;
     height: auto;
     transition: transform 0.2s ease;
 }
 
-footer .Socialmedia img:hover {
+footer .socialmedia img:hover {
     transform: scale(1.1);
 }
