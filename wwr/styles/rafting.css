@@ -29,14 +29,12 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    background-color: #e67e22;
 }
 
 main > section {
     margin: 24px 0;
     padding: 8px;
-}
-
-main > section p {
     line-height: 1.6;
     color: #333333;
 }
@@ -56,8 +54,9 @@ header > img {
 }
 
 header nav {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }
 
 header nav ul {
@@ -78,10 +77,11 @@ header nav li {
 header nav a {
     text-decoration: none;
     color: #ff8c00;
-    font-family: var(--body-font);
+    padding: 10px 20px;
+    background-color: #007791;
     font-weight: bold;
     font-size: 0.95rem;
-    transition: color 0.3s ease;
+
 }
 
 header nav a:hover {
@@ -135,6 +135,7 @@ header nav a:hover {
     font-family: var(--body-font);
     font-size: 0.95rem;
     line-height: 1.5;
+
 }
 
 .hero article img {
