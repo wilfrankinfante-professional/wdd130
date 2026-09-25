@@ -76,16 +76,18 @@ header nav li {
 
 header nav a {
     text-decoration: none;
-    color: #ff8c00;
+    color: #ffffff;
     padding: 10px 20px;
     background-color: #007791;
     font-weight: bold;
     font-size: 0.95rem;
+    display: inline-block;
+    border-radius: 4px;
 
 }
 
 header nav a:hover {
-    color: var(--secondary-color);
+    background-color: #004d61;
 }
 
 .hero {
