@@ -112,7 +112,7 @@ header nav a:hover {
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    border-left: 5px solid var(--accent1-color);
+    border-left: 5px solid var(--secondary-color);
 
 }
 
