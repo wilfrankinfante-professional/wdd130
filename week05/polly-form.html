@@ -10,35 +10,61 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
 
 
     <main>
         <form>
-            <label for="fullname">Full name:</label>
-            <input type="text" id="fullname" name="fullname" required>
-            <label for="useremail">Email:</label>
-            <input type="email" id="userenail" name="useremail" required>
+            <fieldset>
+                <legend>Contact Information</legend>
 
-            <label for="browser">What is your favorite browser?</label>
-            <select id="browser" name="browser">
-                <option value="firefox">Firefox</option>
-                <option value="chrome">Chrome</option>
-                <option value="edge">Edge</option>
-                <option value="yahoo">Yahoo</option>
-                <option value="other">Other</option>
-            </select>
-            <label for="pet">Do you have a household pet?</label>
-            <input type="checkbox" id="pet" name="pet">
-            <label for="feedback">List the places you have lived: </label>
-            <textarea id="feedback" name="feedback" rows="3"
-              placeholder="Puerto Ordaz Bolivar, Barcelona Spain, Rome Italy"></textarea>
+                <div class="form-item column2">
+                    <label for="fullname">Full name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="firefox">Firefox</option>
+                        <option value="chrome">Chrome</option>
+                        <option value="edge">Edge</option>
+                        <option value="yahoo">Yahoo</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+
+                <div class="form-item">
+                    <label for="feedback">List the places you have lived: </label>
+                    <textarea id="feedback" name="feedback" rows="3"
+                      placeholder="Puerto Ordaz Bolivar, Barcelona Spain, Rome Italy"></textarea>
+                </div>
+            </fieldset>
+
             <button type="submit">Submit poll</button>
         </form>
     </main>
 
 
-    <footer></footer>
+    <footer>
+        <p>©2026 | HTML Form - User Poll Activity | Wilfrank Infante</p>
+    </footer>
 </body>
 
 </html>
