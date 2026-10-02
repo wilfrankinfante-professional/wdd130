@@ -7,7 +7,7 @@
     <title>Contact Us - El Churu Rafting
     </title>
     <meta name="description"
-      content="Contact El Churu Rafting in Bolívar, Venezuela. Send us a message, find our location on the map, and get in touch with our team to book your next river adventure!">
+      content="Contact El Churu Rafting in Bolívar, Venezuela. Send us a message, find our location on the map, and get in touch with our team for your next adventure!">
     <meta name="author" content="Wilfrank Infante">
     <link rel="stylesheet" href="styles/rafting.css">
 
@@ -33,8 +33,8 @@
                 <p><strong>Address:</strong> Churun is located in Canaima National Park,
                     specifically in Bolívar State, in southeastern Venezuela</p>
                 <p><strong>Phone:</strong> +58 414 878 2713</p>
-                <p><strong>Email:</strong> <a href="elchuru@gmail.com">info@elchururafting.com</a>
-                </p>
+                <p><strong>Email:</strong> <a
+                      href="mailto:info@elchururafting.com">info@elchururafting.com</a></p>
             </address>
         </section>
 
@@ -65,30 +65,35 @@
                     </div>
 
                     <div class="form-item radio-group">
-                        <p>Purpose of the message:</p>
-                        <label>
-                            <input type="radio" name="purpose" value="general" checked> General
-                            inquiry
+                        <p>Message Purpose</p>
+                        <label for="purpose-general">
+                            <input type="radio" id="purpose-general" name="purpose" value="general"
+                              checked> General
+                            Inquiry
                         </label>
-                        <label>
-                            <input type="radio" name="purpose" value="reservation"> Backup question
+                        <label for="purpose-reservation">
+                            <input type="radio" id="purpose-reservation" name="purpose"
+                              value="reservation"> Reservation
+                            Question
                         </label>
-                        <label>
-                            <input type="radio" name="purpose" value="suggestion"> Website
-                            suggestion
+                        <label for="purpose-suggestion">
+                            <input type="radio" id="purpose-suggestion" name="purpose"
+                              value="suggestion"> Website
+                            Suggestion
                         </label>
                     </div>
 
                     <div class="form-item">
                         <label for="user-message">Message</label>
                         <textarea id="user-message" name="user-message"
-                          placeholder="Write your message here" required></textarea>
+                          placeholder="Type your message here" required></textarea>
                     </div>
 
                     <div class="form-item checkbox-group">
-                        <label>
-                            <input type="checkbox" name="newsletter" value="subscribe" checked>
-                            Subscribe me to the monthly newsletter
+                        <label for="newsletter">
+                            <input type="checkbox" id="newsletter" name="newsletter"
+                              value="subscribe" checked> Please
+                            subscribe me to the monthly newsletter
                         </label>
                     </div>
 
