@@ -144,8 +144,8 @@ header nav a:hover {
     padding: 0 8px;
 }
 
-#history-section h2,
-#adventures-section h2 {
+.history-section h2,
+.adventures-section h2 {
     font-family: var(--heading-font);
     color: #ffffff;
     background-color: var(--accent1-color);
