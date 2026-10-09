@@ -581,7 +581,7 @@ footer .socialmedia img:hover {
     display: block;
 }
 
-.trip-card h3 {
+.trip-card h2 {
     font-family: var(--heading-font);
     font-size: 1.3rem;
     color: var(--primary-color);
